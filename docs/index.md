@@ -1,4 +1,4 @@
-# Welcome to MkCocks
+# Welcome to MkCocks tm
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 

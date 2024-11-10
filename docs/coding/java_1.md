@@ -1,7 +1,7 @@
-## non so un cazzo di java
+## non so niente di java
 
 ```java title="Person.java"
 public class Person {
-    private name = "Peppe Brescia"
+    private name = "Luca"
 }
 ```

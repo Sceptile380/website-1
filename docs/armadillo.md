@@ -7,15 +7,11 @@
 
 <script>
     const img = document.getElementById('dvdImage');
-    let posX = 50, posY = 50;
+    let posX = window.innerWidth / 2, posY = window.innerHeight / 2;
     let speedX = 2, speedY = 2;
-    const speedIncreaseFactor = 1.0;
-
-    function moveImage() {
-        const windowWidth = window.innerWidth;
-        const windowHeight = window.innerHeight;
-        const imgWidth = img.clientWidth;
-        const imgHeight = img.clientHeight;
+    const speedIncreaseFactor = 1.1;
+    const imgWidth = img.width;
+    const imgHeight = img.height;
 
         if (posX + imgWidth >= windowWidth || posX <= 0) {
             speedX = -speedX * speedIncreaseFactor;

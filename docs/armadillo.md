@@ -8,9 +8,8 @@ Here is an image with a DVD screensaver-like effect:
 
 <script>
     const img = document.getElementById('dvdImage');
-    let posX = 50, posY = 50;
+    let posX = 40, posY = 40;
     let speedX = 2, speedY = 2;
-    const speedIncreaseFactor = 1.1;
 
     function moveImage() {
         const windowWidth = window.innerWidth;

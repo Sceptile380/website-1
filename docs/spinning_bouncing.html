@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bouncing and Spinning Image</title>
+    <style>
+        /* Basic body styling */
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Spinning and positioning for the image */
+        #dvdImage {
+            position: absolute;
+            width: 150px; /* Adjust the size as needed */
+            animation: spin 3s linear infinite;
+        }
+
+        /* Spinning animation */
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.parcozoopuntaverde.it/wp-content/uploads/2022/12/Armadillo_ICON.png" id="dvdImage" alt="Bouncing and Spinning Image">
+
+    <script>
+        // Set initial variables for the image position and movement
+        const img = document.getElementById('dvdImage');
+        let posX = 100, posY = 100; // Initial position
+        let speedX = 2, speedY = 2; // Speed of movement
+
+        function moveImage() {
+            // Get window and image dimensions
+            const windowWidth = window.innerWidth;
+            const windowHeight = window.innerHeight;
+            const imgWidth = img.clientWidth;
+            const imgHeight = img.clientHeight;
+
+            // Reverse direction if it hits a boundary
+            if (posX + imgWidth >= windowWidth || posX <= 0) {
+                speedX = -speedX;
+            }
+            if (posY + imgHeight >= windowHeight || posY <= 0) {
+                speedY = -speedY;
+            }
+
+            // Update position
+            posX += speedX;
+            posY += speedY;
+
+            // Apply new position to the image
+            img.style.left = posX + 'px';
+            img.style.top = posY + 'px';
+
+            // Call moveImage every 10 milliseconds
+            requestAnimationFrame(moveImage);
+        }
+
+        // Start the animation
+        moveImage();
+    </script>
+</body>
+</html>

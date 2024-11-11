@@ -46,6 +46,7 @@ markdown_extensions:
   - pymdownx.superfences
 
 nav:
+  - Armadillo: spinning_bouncing.html
   - Home: index.md
   - Code Docs:
     - Java: coding/java_1.md

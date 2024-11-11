@@ -1,6 +1,5 @@
-# Spinning and Bouncing Image
+# ballin'
 
-Here is an image with a DVD screensaver-like effect:
 
 <div style="position:relative; width:100%; height:500px; overflow:hidden;">
     <img id="dvdImage" src="https://png.pngtree.com/png-vector/20240528/ourmid/pngtree-armadillos-png-image_12507956.png" alt="Spinning and Bouncing Image" style="position:absolute; width:100px;">
@@ -8,9 +7,9 @@ Here is an image with a DVD screensaver-like effect:
 
 <script>
     const img = document.getElementById('dvdImage');
-    let posX = 10, posY = 10;
+    let posX = 50, posY = 50;
     let speedX = 2, speedY = 2;
-    const speedIncreaseFactor = 0.1;
+    const speedIncreaseFactor = 1.0;
 
     function moveImage() {
         const windowWidth = window.innerWidth;

@@ -3,9 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bouncing and Spinning Image</title>
+    <title>Bouncing Spinning Image</title>
     <style>
-        /* Basic body styling */
         body {
             margin: 0;
             overflow: hidden;
@@ -15,15 +14,11 @@
             align-items: center;
             height: 100vh;
         }
-
-        /* Spinning and positioning for the image */
-        #dvdImage {
+        img {
             position: absolute;
-            width: 150px; /* Adjust the size as needed */
-            animation: spin 3s linear infinite;
+            width: 100px;
+            animation: spin 2s linear infinite;
         }
-
-        /* Spinning animation */
         @keyframes spin {
             from {
                 transform: rotate(0deg);
@@ -35,42 +30,45 @@
     </style>
 </head>
 <body>
-    <img src="https://cdn1.iconfinder.com/data/icons/angry-icons-by-femfoyou/501/redbird.png" id="dvdImage" alt="Bouncing and Spinning Image">
+    <img id="bouncingImage" src="https://cdn1.iconfinder.com/data/icons/angry-icons-by-femfoyou/501/redbird.png" alt="Spinning and Bouncing Image">
 
     <script>
-        // Set initial variables for the image position and movement
-        const img = document.getElementById('dvdImage');
-        let posX = 100, posY = 100; // Initial position
-        let speedX = 2, speedY = 2; // Speed of movement
-
+        const img = document.getElementById('bouncingImage');
+        let posX = Math.random() * window.innerWidth;
+        let posY = Math.random() * window.innerHeight;
+        let speedX = 2, speedY = 2;
+        const speedIncreaseFactor = 1.1;
+        
+        // Function to move the image and make it bounce
         function moveImage() {
-            // Get window and image dimensions
+            const imgWidth = img.width;
+            const imgHeight = img.height;
             const windowWidth = window.innerWidth;
             const windowHeight = window.innerHeight;
-            const imgWidth = img.clientWidth;
-            const imgHeight = img.clientHeight;
 
-            // Reverse direction if it hits a boundary
-            if (posX + imgWidth >= windowWidth || posX <= 0) {
-                speedX = -speedX;
-            }
-            if (posY + imgHeight >= windowHeight || posY <= 0) {
-                speedY = -speedY;
-            }
+            // Bounce off the walls and change direction
+            if (posX + imgWidth >= windowWidth || posX <= 0) speedX = -speedX;
+            if (posY + imgHeight >= windowHeight || posY <= 0) speedY = -speedY;
 
             // Update position
             posX += speedX;
             posY += speedY;
 
-            // Apply new position to the image
+            // Apply new position
             img.style.left = posX + 'px';
             img.style.top = posY + 'px';
 
-            // Call moveImage every 10 milliseconds
             requestAnimationFrame(moveImage);
         }
 
-        // Start the animation
+        // Event listener for clicking the image
+        img.addEventListener('click', () => {
+            // Reverse direction and increase speed
+            speedX = -speedX * speedIncreaseFactor;
+            speedY = -speedY * speedIncreaseFactor;
+        });
+
+        // Start animation
         moveImage();
     </script>
 </body>

@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bouncing Spinning Image</title>
+    <title>Spinning and Bouncing Image</title>
     <style>
         body {
             margin: 0;
             overflow: hidden;
-            background-color: #f0f0f0;
+            background-color: #111;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,7 +17,7 @@
         img {
             position: absolute;
             width: 100px;
-            animation: spin 2s linear infinite;
+            animation: spin 3s linear infinite;
         }
         @keyframes spin {
             from {
@@ -30,23 +30,23 @@
     </style>
 </head>
 <body>
-    <img id="bouncingImage" src="https://cdn1.iconfinder.com/data/icons/angry-icons-by-femfoyou/501/redbird.png" alt="Spinning and Bouncing Image">
+    <img id="bouncingImage" src="https://cdn1.iconfinder.com/data/icons/angry-icons-by-femfoyou/501/redbird.png" alt="Bouncing Image">
 
     <script>
         const img = document.getElementById('bouncingImage');
-        let posX = Math.random() * window.innerWidth;
-        let posY = Math.random() * window.innerHeight;
+        let posX = Math.random() * (window.innerWidth - img.width);
+        let posY = Math.random() * (window.innerHeight - img.height);
         let speedX = 2, speedY = 2;
         const speedIncreaseFactor = 1.1;
-        
-        // Function to move the image and make it bounce
+
+        // Function to move and bounce the image
         function moveImage() {
             const imgWidth = img.width;
             const imgHeight = img.height;
             const windowWidth = window.innerWidth;
             const windowHeight = window.innerHeight;
 
-            // Bounce off the walls and change direction
+            // Check for collisions with screen edges and bounce
             if (posX + imgWidth >= windowWidth || posX <= 0) speedX = -speedX;
             if (posY + imgHeight >= windowHeight || posY <= 0) speedY = -speedY;
 
@@ -63,7 +63,7 @@
 
         // Event listener for clicking the image
         img.addEventListener('click', () => {
-            // Reverse direction and increase speed
+            // Reverse direction and slightly increase speed
             speedX = -speedX * speedIncreaseFactor;
             speedY = -speedY * speedIncreaseFactor;
         });

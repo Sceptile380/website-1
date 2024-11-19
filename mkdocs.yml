@@ -35,9 +35,6 @@ plugins:
   - blog
   - tags:
      tags_file: tags.md
-    markdown_extensions:
-  - attr_list
-
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -47,7 +44,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-
+  - attr_list
 nav:
   - Red Angry Birds: spinning_bouncing.html
   - Home: index.md

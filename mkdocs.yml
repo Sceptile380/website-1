@@ -35,6 +35,9 @@ plugins:
   - blog
   - tags:
      tags_file: tags.md
+    markdown_extensions:
+  - attr_list
+
 
 markdown_extensions:
   - pymdownx.highlight:

@@ -1,4 +1,4 @@
-site_name: Sceptile380's Workspace
+site_name: "Sceptile380's Workspace"
 site_url: https://mydomain.org/mysite
 
 theme:
@@ -15,20 +15,20 @@ theme:
       accent: "#FF4081"
       background: "#121212"
 
-  features:
-    - navigation.instant
-    - navigation.instant.progress
-    - navigation.instant.preview
-    - navigation.tracking
-    - navigation.tab.sticky
-    - navigation.sections
-    - navigation.expand
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - search.share
-    - content.code.copy
+features:
+  - navigation.instant
+  - navigation.instant.progress
+  - navigation.instant.preview
+  - navigation.tracking
+  - navigation.tab.sticky
+  - navigation.sections
+  - navigation.expand
+  - toc.integrate
+  - navigation.top
+  - search.suggest
+  - search.highlight
+  - search.share
+  - content.code.copy
 
 plugins:
   - search

@@ -46,14 +46,14 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
 nav:
-  - Red Angry Birds: spinning_bouncing.html
   - Home: index.md
+    - About:
+    - About Me: about/about.md
+    - Skibidi Sigma: about/lol.md
+  - Red Angry Birds: spinning_bouncing.html
   - bouncy armadillo: armadillo.md
   - Code Docs:
     - Java: coding/java_1.md
-  - About:
-    - About Me: about/about.md
-    - Skibidi Sigma: about/lol.md
   - Tags: tags.md
   - Blog:
     - blog/index.md

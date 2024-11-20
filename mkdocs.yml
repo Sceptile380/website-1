@@ -2,23 +2,23 @@ site_name: "Sceptile380's Workspace"
 site_url: https://mydomain.org/mysite
 
 theme:
-  name: material
-  palette:
-    - media: "(prefers-color-scheme: light)"
-      name: light
-      primary: "#FF5733"    # Custom primary color for light mode
-      accent: "#33C1FF"     # Custom accent color for light mode
-      background: "#F1F1F1" # Custom background color for light mode
-      toggle:
-        icon: material/brightness-7
+  palette: 
 
-    - media: "(prefers-color-scheme: dark)"
-      name: dark
-      primary: "#1B165C"    # Custom primary color for dark mode
-      accent: "#0DFC351"     # Custom accent color for dark mode
-      background: "#121212" # Custom background color for dark mode
+    # Palette toggle for light mode
+    - scheme: default
+      primary: grey
+      accent: cyan
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
       toggle:
         icon: material/brightness-4
+        name: Switch to light mode
 
 
 features:

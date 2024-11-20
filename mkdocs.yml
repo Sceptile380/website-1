@@ -47,7 +47,7 @@ markdown_extensions:
   - attr_list
 nav:
   - Home: index.md
-    - About:
+  - About:
     - About Me: about/about.md
     - Skibidi Sigma: about/lol.md
   - Red Angry Birds: spinning_bouncing.html

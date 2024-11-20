@@ -1,13 +1,13 @@
-site_name: "Sceptile380's Workspace"
+site_name: Sceptile380's Workspace
 site_url: https://mydomain.org/mysite
-
 theme:
+  name: material
   palette: 
 
     # Palette toggle for light mode
     - scheme: default
-      primary: grey
-      accent: cyan
+      primary: blue grey
+      accent: deep purple
       toggle:
         icon: material/brightness-7 
         name: Switch to dark mode
@@ -15,32 +15,30 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
       primary: teal
-      accent: cyan
+      accent: deep purple
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-
-
-features:
-  - navigation.instant
-  - navigation.instant.progress
-  - navigation.instant.preview
-  - navigation.tracking
-  - navigation.tab.sticky
-  - navigation.sections
-  - navigation.expand
-  - toc.integrate
-  - navigation.top
-  - search.suggest
-  - search.highlight
-  - search.share
-  - content.code.copy
+  features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
+    - navigation.tab.sticky
+    - navigation.sections
+    - navigation.expand
+    - toc.integrate
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
 
 plugins:
   - search
   - blog
   - tags:
-      tags_file: tags.md
+     tags_file: tags.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -50,17 +48,16 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
-  - attr_list
 
 nav:
-  - Home: index.md
-  - About:
-      - About Me: about/about.md
-      - Skibidi Sigma: about/lol.md
   - Red Angry Birds: spinning_bouncing.html
+  - Home: index.md
   - bouncy armadillo: armadillo.md
   - Code Docs:
-      - Java: coding/java_1.md
+    - Java: coding/java_1.md
+  - About:
+    - About Me: about/about.md
+    - Skibidi Sigma: about/lol.md
   - Tags: tags.md
   - Blog:
-      - blog/index.md
+    - blog/index.md

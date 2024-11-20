@@ -6,14 +6,14 @@ theme:
   palette:
     - media: (min-width: 768px)
       name: light
-      primary: "#FF5733"    # Custom primary color for light mode
-      accent: "#33C1FF"     # Custom accent color for light mode
-      background: "#F1F1F1" # Custom background color for light mode
+      primary: "#FF5733"
+      accent: "#33C1FF"
+      background: "#F1F1F1"
     - media: (max-width: 767px)
       name: dark
-      primary: "#1A237E"    # Custom primary color for dark mode
-      accent: "#FF4081"     # Custom accent color for dark mode
-      background: "#121212" # Custom background color for dark mode
+      primary: "#1A237E"
+      accent: "#FF4081"
+      background: "#121212"
 
   features:
     - navigation.instant
@@ -34,7 +34,7 @@ plugins:
   - search
   - blog
   - tags:
-     tags_file: tags.md
+      tags_file: tags.md
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -52,12 +52,12 @@ extra_css:
 nav:
   - Home: index.md
   - About:
-    - About Me: about/about.md
-    - Skibidi Sigma: about/lol.md
+      - About Me: about/about.md
+      - Skibidi Sigma: about/lol.md
   - Red Angry Birds: spinning_bouncing.html
   - bouncy armadillo: armadillo.md
   - Code Docs:
-    - Java: coding/java_1.md
+      - Java: coding/java_1.md
   - Tags: tags.md
   - Blog:
-    - blog/index.md
+      - blog/index.md

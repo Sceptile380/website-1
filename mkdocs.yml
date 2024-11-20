@@ -3,7 +3,7 @@ site_url: https://mydomain.org/mysite
 
 theme:
   name: material
-    palette:
+  palette:
     - media: (min-width: 768px)
       name: light
       primary: "#FF5733"    # Custom primary color for light mode

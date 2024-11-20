@@ -4,16 +4,16 @@ site_url: https://mydomain.org/mysite
 theme:
   name: material
   palette:
-    - media: (min-width: 768px)
+    - media: "(min-width: 768px)"
       name: light
-      primary: "#FF5733"
-      accent: "#33C1FF"
-      background: "#F1F1F1"
-    - media: (max-width: 767px)
+      primary: "#FF5733"    # Custom primary color for light mode
+      accent: "#33C1FF"     # Custom accent color for light mode
+      background: "#F1F1F1" # Custom background color for light mode
+    - media: "(max-width: 767px)"
       name: dark
-      primary: "#1A237E"
-      accent: "#FF4081"
-      background: "#121212"
+      primary: "#1A237E"    # Custom primary color for dark mode
+      accent: "#FF4081"     # Custom accent color for dark mode
+      background: "#121212" # Custom background color for dark mode
 
 features:
   - navigation.instant

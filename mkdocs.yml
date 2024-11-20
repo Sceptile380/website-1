@@ -1,8 +1,9 @@
-site_name: The Honored One
+site_name: Sceptile380's Workspace
 site_url: https://mydomain.org/mysite
 theme:
   name: material
   palette: 
+    primary: custom
 
     # Palette toggle for light mode
     - scheme: default
@@ -45,6 +46,10 @@ markdown_extensions:
   - pymdownx.snippets
   - pymdownx.superfences
   - attr_list
+
+extra_css:
+  - stylesheets/extra.css
+
 nav:
   - Home: index.md
   - About:

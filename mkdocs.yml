@@ -10,12 +10,12 @@ theme:
       accent: "#33C1FF"     # Custom accent color for light mode
       background: "#F1F1F1" # Custom background color for light mode
       toggle:
-        icon: material/brightness-4
+        icon: material/brightness-7
 
     - media: "(prefers-color-scheme: dark)"
       name: dark
-      primary: "#1A237E"    # Custom primary color for dark mode
-      accent: "#FF4081"     # Custom accent color for dark mode
+      primary: "#1B165C"    # Custom primary color for dark mode
+      accent: "#0DFC351"     # Custom accent color for dark mode
       background: "#121212" # Custom background color for dark mode
       toggle:
         icon: material/brightness-4

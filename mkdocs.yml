@@ -49,17 +49,17 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
+  - attr_list
 
 nav:
   - Home: index.md
-  - Code Docs:
-    - Java: coding/java_1.md
+  - Tags: tags.md
   - About:
     - About Me: about/about.md
     - 3D Artworks: about/3d_art.md
     - Digital Art & Graphics: about/art_n_graph.md
   - Red Angry Birds: spinning_bouncing.html
-  - bouncy armadillo: armadillo.md
-  - Tags: tags.md
   - Blog:
     - blog/index.md
+  - Code Docs:
+    - Java: coding/java_1.md

@@ -13,9 +13,3 @@ ho sempre pensato che fosse roba per gente talentuosa, invece mi son ritrovato a
 Bene, può bastare.
 
 
-# Resized Image with Extended Syntax
-
-![Alt Text](https://www.1001hobbies.it/2603647-large_default/good-smile-company-101422-silent-hill-2-nendoroid-figure-red-pyramid-t.jpg){: style="width:100px; height:auto;" }
-
-
-[Visit custom page](spinning_bouncing.html)

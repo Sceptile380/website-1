@@ -2,6 +2,7 @@ site_name: Sceptile380's Workspace
 site_url: https://mydomain.org/mysite
 theme:
   name: material
+  logo: s380_minilogo.png
   palette: 
 
     # Palette toggle for light mode
@@ -55,7 +56,8 @@ nav:
     - Java: coding/java_1.md
   - About:
     - About Me: about/about.md
-    - Skibidi Sigma: about/lol.md
+    - 3D Artworks: about/3d_art.md
+    - Digital Art & Graphics: about/art_n_graph.md
   - Red Angry Birds: spinning_bouncing.html
   - bouncy armadillo: armadillo.md
   - Tags: tags.md

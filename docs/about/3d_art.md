@@ -18,6 +18,6 @@
 > Realizzato nel 2024 per scopi personali.
 
 ## Animatronics di Five Nights at Freddy's (stilizzati) 
-![fnaf_logo](https://static.wikia.nocookie.net/logopedia/images/1/1e/Five_Nights_at_Freddy%27s.svg/revision/latest/scale-to-width-down/300?cb=20210210165109){: style="width:60px; height:auto;" }
+![fnaf_logo](https://static.wikia.nocookie.net/characterprofile/images/b/b1/Five_Nights_at_Freddy%27s_Logo.png/revision/latest/scale-to-width-down/350?cb=20220628044217)
 ![fnaf](fnaf_trio.png)
 > Realizzati nel 2024 per scopi personali.

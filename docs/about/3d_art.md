@@ -11,7 +11,7 @@
 
 ## Ristrutturazione Parco giochi
 ![playground](assets/playground.png)
-> Realizzato nel 202- per un concorso FAI assieme a compagni di scuola.
+> Realizzato nel 2022 per un concorso FAI assieme a compagni di scuola.
 
 ## Original Character + Animazione
 ![type:video](assets/fyra.mp4)

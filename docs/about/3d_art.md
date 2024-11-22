@@ -14,7 +14,7 @@
 > Realizzato nel 202- per un concorso FAI assieme a compagni di scuola.
 
 ## Original Character + Animazione
-![fyra](assets/fyra.mp4)
+![type:video](assets/fyra.mp4)
 > Realizzato nel 2024 per scopi personali.
 
 ## Animatronics di Five Nights at Freddy's (stilizzati) ![fnaf_logo](assets/fnaflogo.png){: style="width:50px; height:auto;" }

@@ -38,6 +38,7 @@ theme:
 plugins:
   - search
   - blog
+  - mkdocs-video
   - tags:
      tags_file: tags.md
 

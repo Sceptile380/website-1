@@ -1,0 +1,26 @@
+# Fimo Art
+
+![banner](assets/fimo-art/fimo-collection.jpg)
+![banner1](assets/fimo-art/fimo-collection-1.jpg)
+![banner2](assets/fimo-art/fimo-collection-2.jpg)
+![banner3](assets/fimo-art/fimo-collection-3.jpg)
+![banner4](assets/fimo-art/fimo-collection-4.jpg)
+>
+![1](assets/fimo-art/ho-oh-fimo.png)
+![2](assets/fimo-art/heatmor-fimo.png)
+![3](assets/fimo-art/trevenant-fimo.png)
+![4](assets/fimo-art/melmetal-fimo.png)
+![5](assets/fimo-art/hydrapple-fimo.png)
+![6](assets/fimo-art/golurk-fimo.png)
+![7](assets/fimo-art/umbreon-fimo.png)
+![8](assets/fimo-art/spheal-fimo.png)
+![9](assets/fimo-art/chandelure-fimo.png)
+![10](assets/fimo-art/typhlosion-hisui-fimo.png)
+![11](assets/fimo-art/slither-wing-fimo.png)
+![12](assets/fimo-art/ultra-necrozma-fimo.png)
+![13](assets/fimo-art/tatsugiri-fimo.png)
+![14](assets/fimo-art/tinkaton-fimo.png)
+![15](assets/fimo-art/gholdengo-fimo.png)
+![16](assets/fimo-art/eternatus-fimo.png)
+![17](assets/fimo-art/kirby-fimo.png)
+

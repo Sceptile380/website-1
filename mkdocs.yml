@@ -52,13 +52,19 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
 
+docs_dir: docs
+
+extra_javascript:
+  - https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js
+
 nav:
   - Home: index.md
   - Tags: tags.md
-  - About:
-    - About Me: about/about.md
-    - 3D Artworks: about/3d_art.md
-    - Digital Art & Graphics: about/art_n_graph.md
+  - About: about/about.md
+  - Art:
+    - 3D Artworks: art/3d_art.md
+    - Digital Art & Graphics: art/art_n_graph.md
+    - Fimo Art: art/fimo_art.md
   - Red Angry Birds: spinning_bouncing.html
   - Blog:
     - blog/index.md

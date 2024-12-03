@@ -13,3 +13,6 @@ ho sempre pensato che fosse roba per gente talentuosa, invece mi son ritrovato a
 Bene, può bastare.
 
 
+Vuoi saperne di più? Premi ![**QUI!**](https://youtu.be/w_cGSaVKEwg?si=VblKWFpOwuusPM5g "scopri di più...")
+
+

@@ -69,6 +69,13 @@
 ![4](assets/digital-art/artworks/oc-art-4-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
 ![5](assets/digital-art/artworks/oc-art-5-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
 ![6](assets/digital-art/artworks/contest-art-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![7](assets/digital-art/artworks/fakemon-1-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![8](assets/digital-art/artworks/fakemon-2-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![9](assets/digital-art/artworks/fakemon-3-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![10](assets/digital-art/artworks/fakemon-4-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![11](assets/digital-art/artworks/fakemon-5-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![12](assets/digital-art/artworks/fakemon-6-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
+![13](assets/digital-art/artworks/fakemon-7-2023.jpg){ style="display: block; margin: 0 auto; width: 500px;" }
 
 # **2024**
 

@@ -1,4 +1,7 @@
 # Luca Agizza 
+
+![foto-personale](assets/foto_personale.jpg)
+
 Esisto sin dal 9 Giugno del 2005, sono un mezzo artista con un pessimo senso dell'umorismo che sa fare un po' di tutto.
 Nato a Napoli, ma cresciuto a Taranto, in Puglia, fino all'età di 11, per poi trasferirsi definitivamente (si spera) a Napoli.
 Sono noto sul web con il nome di Sceptile380 (dal 2017), nickname nato per errore ma che non me la sento di cambiare.

@@ -1,4 +1,4 @@
-## non so niente di java
+## non so niente di java xd
 
 ```java title="Person.java"
 public class Person {
